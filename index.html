@@ -269,17 +269,31 @@
     					<div class="row">
       						<div class="col-12 col-lg-8 offset-lg-2 mt-4">
 
-        						<div class="post-page text-center my-4">
+        						<!--<div class="post-page text-center my-4">
           							<h1>Contact Me</h1>
-        						</div>
+        						</div>-->
 
         						<form method="POST" action="https://formspree.io/f/xqkwjeoo"">
 								<br> 
+								<div class="control-name">
 								<input type="text" name="name"
-            							placeholder="您的姓名"><br> <input type="email" name="_replyto" placeholder="您的邮箱地址">
+            							placeholder="您的姓名">
+								</div>
 								<br>
-          							<textarea rows="5" name="message" placeholder="您想说的话"></textarea><br> <button
-								 type="submit">发送</button><br></form>
+								<div class="control-email">
+								<input type="email" name="_replyto" placeholder="您的邮箱地址">
+								</div>
+								<br>
+								<div class="control-message">
+          							<textarea rows="5" name="message" placeholder="您想说的话">
+								</textarea>
+								</div>
+								<br> 
+								<div class="control-submit">
+								<button type="submit">发送</button>
+								</div>
+								<br>
+								</form>
 
 
       					</div>
